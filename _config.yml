@@ -1,9 +1,9 @@
 # Site settings
 title: Lucas Bradstreet
-email: blog@lucasbradstreet.com
+email: lucasbradstreet@gmail.com
 description: Musings on programming, functional programming, and distributed systems.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.lucasbradstreet.com" # the base hostname & protocol for your site
+url: "http://lbradstreet.github.io" # the base hostname & protocol for your site
 twitter_username: ghaz
 github_username:  lbradstreet
 
