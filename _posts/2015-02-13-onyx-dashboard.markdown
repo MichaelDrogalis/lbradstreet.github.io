@@ -41,5 +41,38 @@ message, are sent to the dashboard via a websocket. As the replica is replayed
 the dashboard view updates until it is consistent with the current state of the
 cluster.
 
+## Loading Deployment data / replaying the log
 
 ![Loading Deployment](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/streaming_log.gif)
+
+## Dashboard Status
+
+![Dashboard Status](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/dashboard_status.png)
+
+## Jobs Selector
+
+![Jobs](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/jobs.png)
+
+## Job Status
+
+![Job Status](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/job_status.png)
+
+## Running Tasks and Peers
+
+![Running Tasks](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/running_tasks.png)
+
+## Catalog
+
+Something about how one of the beauties of Onyx, is that it is extremely flexible at run time.
+Something about catalog and workflow here. Can view and also has the
+information to manage the jobs etc.
+
+![Catalog](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/catalog.png)
+
+## Workflow
+
+![Workflow](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/workflow.png)
+
+## Log Entries Filtered by Selected Job
+
+![Job Activity](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/job_activity.png)
