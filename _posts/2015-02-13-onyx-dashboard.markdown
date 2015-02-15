@@ -22,15 +22,17 @@ this log in order to make decisions about job management (starting, killing
 jobs), job scheduling, and task scheduling (scheduling between tasks within a
 job).
 
+MD: "they read the log one entry at a time, in order, and continue update their local state (replica) with changes. They each track this log..."
+
 One side benefit of this design is that it gives a replayable view of changes
 within the cluster over the time, as well as a way to view the overall state of
 the cluster at a given time, even if the cluster has long been shutdown. We
-have leveraged this information in order to create a dashboard that gives a
+have leveraged this information (MD: information model) in order to create a dashboard that gives a
 high level overview of the state of an Onyx cluster.
 
 ## Operation
 
-Open opening the dashboard, users are provided with a dropdown containing
+Open opening (MD: repeat word) the dashboard, users are provided with a dropdown containing
 deployment IDs, each of which correspond to a log for an Onyx
 cluster/deployment. When a deployment ID is selected, the dashboard server
 replays the log. As it reads the log messages, it applies the log entry to its
@@ -41,7 +43,7 @@ replica, in order to send higher level messages to the dashboard e.g. a job was
 started, a task is running, a job is killed. These higher level messages and
 the raw log entry are sent to the dashboard client via a websocket. As the
 replica is replayed the dashboard view updates until it is consistent with the
-current state of the cluster.
+current state of the cluster. (MD: There's really no "current state" - perhaps phrase to something like "approximately the latest replica value", as it's a moving target)
 
 ## Dashboard Selection & Log Replay
 
@@ -145,11 +147,11 @@ monitoring or debugging use cases.
 There is more that could be done in the future. As Onyx jobs are described as
 data, there is the potential to allow for client side editing, manipulation,
 and submission of jobs. In addition, debug mode jobs could be run, which would
-place additional nodes in between each workflow node, which could stream the
+place additional nodes in between each workflow node, which could stream the (MD: sample segment results)
 segment results to the dashboard client. 
 
 In addition, we are looking into best practices for monitoring cluster metrics.
-While this data would not be written to the cluster log, we could provide
+While this data would not be written (MD: might not be best) to the cluster log, we could provide
 integration between dashboard and metrics visualisation tools. The combination
 of log interpretation with cluster metrics would substantially increase the
 power of these metrics, as information about the cluster (peer joining or
