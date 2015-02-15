@@ -68,6 +68,10 @@ Displays the cluster peers that are running for the deployment. An additional
 heartbeat check is performed by the dashboard in order to ensure that the peers
 described by the log are still alive.
 
+## Deployment Log Entries
+
+Show deployment log entries here? Will be showing the filtered log later but maybe it's good to see them here as it's a bit of perspective about how the peers coordinate?
+
 ## Jobs Selector
 
 ![Jobs](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/jobs.png)
@@ -135,8 +139,8 @@ the job that is selected. These allow users to see the raw activity for the clus
 
 ## Future Work
 
-As you have seen, we've created a basic dashboard that may be useful for
-some monitoring or debugging use cases. 
+As you have seen, we've created a basic dashboard that may be useful for some
+monitoring or debugging use cases. 
 
 There is more that could be done in the future. As Onyx jobs are described as
 data, there is the potential to allow for client side editing, manipulation,
