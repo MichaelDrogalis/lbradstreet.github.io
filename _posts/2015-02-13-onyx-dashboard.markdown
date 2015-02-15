@@ -52,7 +52,7 @@ The above animation demonstrates the selection of an Onyx deployment, and the lo
 ## Dashboard Status
 
 ![Dashboard Status](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/dashboard_status.png)
-![Dashboard Status](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/loading_deployment.png)
+![Dashboard Status](https://raw.githubusercontent.com/lbradstreet/lbradstreet.github.io/dashboard-post/images/dashboard/loading_deployment.gif)
 
 The Dashboard Status section shows the time of the last intepreted log entry.
 As log messages are replayed, the status of the dashboard will advance until it
